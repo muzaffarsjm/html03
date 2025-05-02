@@ -3,12 +3,19 @@ body{
 }
 p{
   font-size: 20px;
+  margin: 0;
 }
 div{
   border: 1px solid black;
   width: 300px;
   margin-bottom: 20px;
   padding: 20px
+}
+button{
+  margin-top: 20px;
+}
+.fifth{
+  width: 400px;
 }
 .request-button{
   height: 40px;
@@ -18,10 +25,10 @@ div{
   color: white;
   border: none;
   cursor: pointer;
+  transition: 0.5s;
 }
 .request-button:hover{
- background-color: rgb(44, 41, 41);
- transition: 0.5s;
+ background-color: rgb(56, 53, 53);
 }
 
 .amazon-add-button{
@@ -32,10 +39,10 @@ div{
   font-size: 16px;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.5s;
 }
 .amazon-add-button:hover{
   background-color: rgb(219, 180, 7);
-  transition: 0.5s;
 }
 .github-signup-button{
   background-color: rgb(20, 164, 20);
@@ -47,4 +54,70 @@ div{
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.6s;
+}
+.github-signup-button:hover{
+  box-shadow: 5px 5px 5px rgb(7, 81, 12);
+}
+.bootstrap-start-button{
+  background-color: blueviolet;
+  width: 150px;
+  height: 45px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  font-size: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bootstrap-start-button:hover{
+  background-color: rgb(74, 19, 125);
+}
+.bootstrap-download-button{
+  width: 120px;
+  height: 46px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(83, 82, 82);
+  cursor: pointer;
+  transition: 0.7s;
+}
+.bootstrap-download-button:hover{
+  background-color: rgb(65, 63, 63);
+  color: white;
+}
+
+.linkedin-first-button{
+  height: 40px;
+  width: 240px;
+  background-color: rgb(13, 118, 223);
+  font-size: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.linkedin-first-button:hover{
+  background-color: rgb(19, 74, 170);
+}
+
+.linkedin-second-button{
+  height: 39px;
+  width: 75px;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 20px;
+  color: blue;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.linkedin-second-button:hover{
+  background-color: lightblue;
+  border: 1px solid blue;
 }
