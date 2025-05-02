@@ -1,3 +1,50 @@
 body{
-  background-color: red;
+  background-color: rgb(233, 233, 233);
+}
+p{
+  font-size: 20px;
+}
+div{
+  border: 1px solid black;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px
+}
+.request-button{
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  background-color: rgb(18, 17, 17);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.request-button:hover{
+ background-color: rgb(44, 41, 41);
+ transition: 0.5s;
+}
+
+.amazon-add-button{
+  background-color: rgb(246, 207, 12);
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.amazon-add-button:hover{
+  background-color: rgb(219, 180, 7);
+  transition: 0.5s;
+}
+.github-signup-button{
+  background-color: rgb(20, 164, 20);
+  height: 50px;
+  width: 110px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
 }
